@@ -20,7 +20,7 @@ just create an instance of this class with the device's visa address, e. g.:
 
 ```python
 >>> from mercuryitc import MercuryITC
->>> m = MercuryITC('TCPIP0:172.20.91.43:7020:SOCKET')
+>>> m = MercuryITC('TCPIP0::172.20.91.43::7020::SOCKET')
 ```
 
 All the instrument attributes can be accessed through instance attributes, e.g.:
